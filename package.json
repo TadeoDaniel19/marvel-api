@@ -1,0 +1,22 @@
+{
+  "name": "marvel-api",
+  "version": "1.0.0",
+  "description": "its a api-rest for marvel catalog ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "seed": "node src/models/seed.js"
+  },
+  "author": "TadeoDaniel19",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2",
+    "mongoose-seed": "^0.6.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
